@@ -5,6 +5,16 @@ const axios = require("axios");
 
 const questions = [{
         type: "input",
+        name: "githubName",
+        message: "What is your github user name"
+    },
+    {
+        type: "input",
+        name: "emailAddress",
+        message: "What is your email address"
+    },
+    {
+        type: "input",
         name: "title",
         message: "What is the name of your project?"
     },
@@ -14,19 +24,32 @@ const questions = [{
         message: "type a description of this project."
     },
     {
-        type: "input",
-        name: "githubName",
-        message: "What is your github user name"
+        type: "checkbox",
+        name: "lecense",
+        choices: ["MIT", "GNU GPLv3"],
+        message: "What license would you like to use?"
     },
     {
         type: "input",
         name: "installation",
-        message: "how would you install this project?"
+        message: "what command shouuld be run to install dependencies?"
+    },
+    {
+
+        type: "input",
+        name: "tests",
+        message: "what command shouuld be run to tests?"
+
     },
     {
         type: "input",
         name: "usage",
-        message: "how would you install this project?"
+        message: "what does the user need to know about using this repo?"
+    },
+    {
+        type: "input",
+        name: "contributer",
+        message: "what does the user neet to know about contributing to the repo?"
     }
 ];
 
@@ -44,27 +67,27 @@ function writeToFile(fileName, data) {
 }
 
 
-inquirer
-    .prompt({
-        message: "Enter Your username",
-        name: "username"
-    })
-    .then(function({ username }) {
-        const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
+// inquirer
+//     .prompt({
+//         message: "Enter Your username",
+//         name: "username"
+//     })
+//     .then(function({ username }) {
+//         const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
 
-        axios
-            .get(queryUrl)
-            .then(function(res) {
-                // repoNames = res.data.map(function(repo) {
-                //     return repo.name
-                // })
+//         axios
+//             .get(queryUrl)
+//             .then(function(res) {
+//                 // repoNames = res.data.map(function(repo) {
+//                 //     return repo.name
+//                 // })
 
-                console.log(res)
-
-
-            });
+//                 console.log(res)
 
 
-    });
+//             });
 
-// writeToFile();
+
+//     });
+
+writeToFile();
