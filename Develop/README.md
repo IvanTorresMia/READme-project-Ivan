@@ -1,5 +1,5 @@
 
-  # Project Cool
+  # dafsdfas
 
   ## Table of contents
 * [Description](#Description)
@@ -10,19 +10,26 @@
 * [License](#License)
 
   ## Description 
-  This project is super cool
+  safdasdf
 
   ## Installation
-  To start you must install npm i on your terminal
+  To start you must install asdfsadf on your terminal
 
   ## Tests
-  If you want to run tests you need to use node index.js on your terminal
+  If you want to run tests you need to use asdfasdf on your terminal
 
   #Usage
-  That it's super cool 
+  asdfadsf 
 
   ## Contributions
-  That Ivan Made it
+  asdfadsf
 
   ## License 
-  undefined
+  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+  ## Questions?
+  Reach me at faadsfas
+  My Git Hub Repo 
+
+  ![picture](https://github.com/IvanTorresMia.png?size=100)
+

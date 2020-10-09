@@ -24,9 +24,9 @@ const questions = [{
         message: "type a description of this project."
     },
     {
-        type: "list",
-        name: "license",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+        type: "checkbox",
+        name: "lecense",
+        choices: ["MIT", "GNU GPLv3"],
         message: "What license would you like to use?"
     },
     {
@@ -57,17 +57,6 @@ function writeToFile(fileName, data) {
     inquirer.prompt(questions)
         .then(
             function(answers) {
-                if (answers.license == "MIT") {
-                    answers.license = "[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)"
-                } else if (answers.license == "APACHE 2.0") {
-                    answers.license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-                } else if (answers.license == "GPL 3.0") {
-                    answers.license = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
-                } else if (answers.license == "BSD 3") {
-                    answers.license = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
-                } else {
-                    answers.license = "None"
-                }
                 fs.writeFile("README.md", template(answers),
                     function(err, data) {
                         if (err) throw err;
@@ -78,6 +67,27 @@ function writeToFile(fileName, data) {
 }
 
 
+inquirer
+    .prompt({
+        message: "Enter Your username",
+        name: "username"
+    })
+    .then(function({ username }) {
+        const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
+
+        axios
+            .get(queryUrl)
+            .then(function(res) {
+                // repoNames = res.data.map(function(repo) {
+                //     return repo.name
+                // })
+
+                console.log(res)
 
 
-writeToFile();
+            });
+
+
+    });
+
+// writeToFile();
