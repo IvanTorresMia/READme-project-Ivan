@@ -1,5 +1,5 @@
 
-  # asdfads
+  # project Cool
 
   ## Table of contents
 * [Description](#Description)
@@ -10,13 +10,13 @@
 * [License](#License)
 
   ## Description 
-  asdfads
+  this project is really cool
 
   ## Installation
   To start you must install 
 
 ```
-  asdf 
+  npm install Ivan 
 ```
 
 
@@ -24,23 +24,23 @@
   If you want to run tests you need to use 
 
   ```
-  asdf 
+  npm run test 
 ```
 
 
   #Usage
-  asdf 
+  That this is really cool  
  
 
   ## Contributions
-  asdf
+  That Ivan made it
 
   ## License 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Questions?
-  Reach me at asfdads
+  Reach me at ivantorresmia27@gmail.com
   My Github picture
   
-  ![picture](https://github.com/IvanTorres.png?size=100)
+  ![picture](https://github.com/IvaTorresMi.png?size=100)
 

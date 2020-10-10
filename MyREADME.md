@@ -5,6 +5,9 @@
 * [Description](#Description)
 * [Technologies](#Technologies)
 * [Features](#Features)
+* [Author](#Author)
+* [Credits](#Credits)
+* [License](#License)
 
 ## Description 
 Hi! Welcome to my Read me Generator. this app is run through node, and once you run the app through "node index.js" in the integrated terminal you will be prompted with questions about your project. You will then answer accordingly. Fair warning there will be questions about your github so be ready with that informaition. Once you have answered all of the questions the app will then generate a README.md file for you! Yay so much work already done for you. 
@@ -17,7 +20,7 @@ Hi! Welcome to my Read me Generator. this app is run through node, and once you 
 
 
 ## Features
-![Quiz-Gif](Work-Gif-HW.gif)
+![README-gif](./assets/README-generator.gif)
 
 * So I used inquirer and set it equal to a object array. just to keep the code clean this is how I decided to do it.
 ```
@@ -160,11 +163,13 @@ function generateMarkdown(data) {
 
 module.exports = generateMarkdown;
 ```
+## Usage
+[Usage-Video](https://drive.google.com/file/d/1_LSHz2r_V6hURoiF2CXEk3WQOe_a-pJk/view)
+
 
 ## Author
 Ivan Torres
-* [Deployed-Link](https://ivantorresmia.github.io/Work-Schedule-Ivan/)
-* [GitHub-Repo](https://github.com/IvanTorresMia/Work-Schedule-Ivan)
+* [GitHub-Repo](https://github.com/IvanTorresMia/READme-project-Ivan)
 * [linkedIn](www.linkedin.com/in/ivan-torres-0828931b2)
 
 ## Credits
