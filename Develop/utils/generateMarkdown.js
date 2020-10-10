@@ -30,6 +30,7 @@ function generateMarkdown(data) {
 
 
   #Usage
+  
   ${data.usage} 
  
 

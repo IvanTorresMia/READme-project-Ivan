@@ -1,5 +1,5 @@
 
-  # project Cool
+  # ReadMe Generator
 
   ## Table of contents
 * [Description](#Description)
@@ -10,13 +10,13 @@
 * [License](#License)
 
   ## Description 
-  this project is really cool
+  this is a read me generator that will write a read me by typing in your information
 
   ## Installation
   To start you must install 
 
 ```
-  npm install Ivan 
+  npm i  
 ```
 
 
@@ -29,18 +29,18 @@
 
 
   #Usage
-  That this is really cool  
+  once you generate a repo it will make a new one everytime you run the app. 
  
 
   ## Contributions
-  That Ivan made it
+  Ivan Torres
 
   ## License 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
   ## Questions?
   Reach me at ivantorresmia27@gmail.com
   My Github picture
   
-  ![picture](https://github.com/IvaTorresMi.png?size=100)
+  ![picture](https://github.com/IvanTorresMia.png?size=100)
 
