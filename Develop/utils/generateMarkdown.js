@@ -14,13 +14,24 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Installation
-  To start you must install ${data.installation} on your terminal
+  To start you must install 
+
+\`\`\`
+  ${data.installation} 
+\`\`\`
+
 
   ## Tests
-  If you want to run tests you need to use ${data.tests} on your terminal
+  If you want to run tests you need to use 
+
+  \`\`\`
+  ${data.tests} 
+\`\`\`
+
 
   #Usage
   ${data.usage} 
+ 
 
   ## Contributions
   ${data.contributer}
