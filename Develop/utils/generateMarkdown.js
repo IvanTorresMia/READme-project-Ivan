@@ -41,7 +41,7 @@ function generateMarkdown(data) {
 
   ## Questions?
   Reach me at ${data.email}
-  My Git Hub Repo 
+  My Github picture
   
   ![picture](https://github.com/${data.githubName}.png?size=100)
 

@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const template = require("./utils/generateMarkdown");
-const axios = require("axios");
 
 const questions = [{
         type: "input",
@@ -53,7 +52,7 @@ const questions = [{
     }
 ];
 
-function writeToFile(fileName, data) {
+function writeToFile() {
     inquirer.prompt(questions)
         .then(
             function(answers) {
