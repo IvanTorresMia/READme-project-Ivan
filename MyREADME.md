@@ -164,7 +164,13 @@ function generateMarkdown(data) {
 module.exports = generateMarkdown;
 ```
 ## Usage
-[Usage-Video](https://drive.google.com/file/d/1_LSHz2r_V6hURoiF2CXEk3WQOe_a-pJk/view)
+[Usage-Video](https://drive.google.com/file/d/1HKjmV8m81vzhIJULUy3zQQgYiuAUOsfb/view)
+
+
+## Installation
+First thing you have to do is install node. Then you run npm init -y to create a package.json. Then yo install inquirer and run npm i. Once you are at that point you can now run index.js to begin creating your README.ms file. 
+optional: you can install jest and run "npm run test" for testing.
+
 
 
 ## Author
