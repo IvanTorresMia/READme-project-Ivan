@@ -67,7 +67,7 @@ function writeToFile() {
                 } else {
                     answers.license = "None"
                 }
-                fs.writeFile("README.md", template(answers),
+                fs.writeFile("./generated/README.md", template(answers),
                     function(err, data) {
                         if (err) throw err;
                         console.log("it worked!")

@@ -1,5 +1,5 @@
 
-  # Project Cool.
+  # asdfads
 
   ## Table of contents
 * [Description](#Description)
@@ -10,13 +10,13 @@
 * [License](#License)
 
   ## Description 
-  This Project is super cool 
+  asdfads
 
   ## Installation
   To start you must install 
 
 ```
-  npm i  
+  asdf 
 ```
 
 
@@ -24,23 +24,23 @@
   If you want to run tests you need to use 
 
   ```
-  node index.js 
+  asdf 
 ```
 
 
   #Usage
-  That it is cool 
+  asdf 
  
 
   ## Contributions
-  That Ivan Made it
+  asdf
 
   ## License 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Questions?
-  Reach me at ivantorresmia27@gmail.com
-  My Git Hub Repo 
+  Reach me at asfdads
+  My Github picture
   
-  ![picture](https://github.com/IvanTorresMia.png?size=100)
+  ![picture](https://github.com/IvanTorres.png?size=100)
 
