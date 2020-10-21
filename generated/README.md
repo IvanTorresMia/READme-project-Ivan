@@ -1,5 +1,5 @@
 
-  # ReadMe Generator
+  # ivan's project
 
   ## Table of contents
 * [Description](#Description)
@@ -10,13 +10,13 @@
 * [License](#License)
 
   ## Description 
-  this is a read me generator that will write a read me by typing in your information
+  this project is dope
 
   ## Installation
   To start you must install 
 
 ```
-  npm i  
+  sdag 
 ```
 
 
@@ -24,24 +24,24 @@
   If you want to run tests you need to use 
 
   ```
-  npm run test 
+  sadg 
 ```
 
 
   #Usage
   
-  once you generate a repo it will make a new one everytime you run the app. 
+  asdg 
  
 
   ## Contributions
-  Ivan Torres
+  sadg
 
   ## License 
   [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
   ## Questions?
-  Reach me at ivantorresmia27@gmail.com
+  Reach me at ivantorres@gmail.com
   My Github picture
   
-  ![picture](https://github.com/IvanTorresMia.png?size=100)
+  ![picture](https://github.com/Ivan Torres.png?size=100)
 
